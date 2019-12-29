@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import Header from 'components/Header/Header';
+import { RouteComponentProps } from '@reach/router';
 
-interface ILayoutProps {
+interface ILayoutProps extends RouteComponentProps {
   children?: React.ReactChild;
 }
 
