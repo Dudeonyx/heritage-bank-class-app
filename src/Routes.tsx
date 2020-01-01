@@ -14,9 +14,9 @@ const Routes: React.FC<IRoutesProps> = props => {
   return (
     <Router>
       <LandingPage path="/" />
-      <Layout path="/">
+      {/* <Layout path="/">
         <Home path="/home" />
-      </Layout>
+      </Layout> */}
     </Router>
   );
 };

@@ -6,16 +6,40 @@ height: 559.81px;
 left: 0px;
 bottom: -90vh; */
 }
-.logo {
+
+.container {
+    /* margin: 50px 50px; */
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.tbkg {
+    flex: 2 1 auto;
+    position: relative;
+}
+
+.bkg {
+    flex: 4 4 auto;
+    position: relative;
+    /* margin-top: 100px; */
+}
+
+.bkg .bkga {
+    /* position: absolute; */
+    /* top: 0; */
+}
+.bkg .bkgb {
     position: absolute;
-    width: 280px;
-    height: 68px;
-    left: 40vw;
-    /* right: 50vw; */
-    top: 40vh;
-    
-    background: url('../../assets/HB-logo_default_web.png');
-    background-repeat: no-repeat;
+    top: -20px;
+    left: 0;
+}
+.logo {
+    flex: 4 0 auto;
+    /* background: url('../../assets/HB-logo_default_web.png'); */
+    /* background-repeat: no-repeat; */
 }
 .bottom-background-img {
     /* Rectangle */
