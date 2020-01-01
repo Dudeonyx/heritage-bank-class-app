@@ -9,7 +9,7 @@ import Routes from 'Routes';
 
 ReactDOM.render(
   <>
-    <CssBaseline />
+    {/* <CssBaseline /> */}
     <Routes />
   </>,
   document.getElementById('root'),
